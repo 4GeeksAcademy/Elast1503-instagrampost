@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+}
+.post{
+    width: 600px;
+    margin: 0 auto;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.post-header-brand{
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    position: relative;
+    left: -40%;
+}
+.post-header-brand p{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+.post-header-elipsis{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    justify-items: flex-end;
+    position: relative;
+    left: 50%;
+}
+.post-img{
+    display: flex;
+    justify-content: center;
+}
+.post-icons{
+    display: flex;
+    font-size: 30px;
+    justify-content: start;
+    padding: 15px;;
+    margin-right: 200px;
+    position: relative;
+    left: 2%;
+}
+.post-bookmark{
+    display: flex;
+    font-size: 35px;
+    position: relative;
+    left: -1%;
+    justify-content: flex-end;
+}
+.post-body{
+    background-color: white;
+    width: 1240px;
+    margin-left: 20px;
+}
+
