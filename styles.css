@@ -1,9 +1,10 @@
 body{
-    background-color: white;
+    background-color: gainsboro;
 }
 .post{
     width: 600px;
     margin: 0 auto;
+    background-color: white;
 }
 .post-header {
     display: flex;
@@ -14,8 +15,6 @@ body{
     display: flex;
     align-items: center;
     font-size: 45px;
-    position: relative;
-    left: -40%;
 }
 .post-header-brand p{
     font-size: 15px;
@@ -27,32 +26,26 @@ body{
     align-items: center;
     font-size: 50px;
     justify-items: flex-end;
-    position: relative;
-    left: 50%;
+
 }
-.post-img{
-    display: flex;
-    justify-content: center;
+.post-img img{
+    width: 100%;
+    
 }
 .post-icons{
     display: flex;
     font-size: 30px;
-    justify-content: start;
-    padding: 15px;;
-    margin-right: 200px;
-    position: relative;
-    left: 2%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 .post-bookmark{
     display: flex;
-    font-size: 35px;
-    position: relative;
-    left: -1%;
-    justify-content: flex-end;
+    font-size: 30px;
+    align-items: center;
 }
 .post-body{
     background-color: white;
-    width: 1240px;
-    margin-left: 20px;
+    padding: 10px;
 }
 
